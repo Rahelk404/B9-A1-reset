@@ -286,7 +286,7 @@ iframe {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
-    text-align: center; 
+    text-align: center;
 }
 
 .target-text {
@@ -378,3 +378,88 @@ iframe {
 }
 
 /* My current target section End  */
+
+/* My next target section start */
+.mnt {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+.mnt-head {
+    text-align: center;
+}
+
+.mnt-head h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.mnt-head p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px 80px 48px 80px;
+}
+
+.mnt-content {
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+    padding: 40px;
+    align-items: center;
+}
+
+.mnt-img {
+    margin-right: 24px;
+}
+
+.mnt-content .text h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.mnt-content .text p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.mnt-content .text a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+/* My next target section End! */
