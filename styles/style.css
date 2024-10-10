@@ -236,9 +236,47 @@
     height: 208.85px;
 }
 
-.content-img-c img{
+.content-img-c img {
     width: 206.4px;
-height: 187.32px;
+    height: 187.32px;
 }
 
-    /* Why web devolopment section End! */
+/* Why web devolopment section End! */
+
+/* my inspiration section start */
+
+.inspiration {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.in-text h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.in-text p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 30px 292px 80px 292px;
+}
+
+iframe{
+    
+    border-radius: 16px;
+}
+
+
+/* my inspiration section end  */
