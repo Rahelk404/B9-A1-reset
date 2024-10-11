@@ -14,6 +14,21 @@
     font-style: normal;
 }
 
+.mnt,
+.final,
+.footer-head {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+.mnt-head,
+.final {
+    text-align: center;
+}
+
+
 /* nav bar style  */
 .nav {
     width: 1325px;
@@ -380,19 +395,6 @@ iframe {
 /* My current target section End  */
 
 /* My next target section start */
-.mnt,
-.final,
-.footer-head {
-    max-width: 1140px;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 110px;
-}
-
-.mnt-head,
-.final {
-    text-align: center;
-}
 
 .mnt-head h2 {
     color: rgb(13, 19, 33);
