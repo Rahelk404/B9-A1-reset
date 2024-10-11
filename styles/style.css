@@ -380,14 +380,16 @@ iframe {
 /* My current target section End  */
 
 /* My next target section start */
-.mnt {
+.mnt,
+.final, .footer-head  {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
     margin-top: 110px;
 }
 
-.mnt-head {
+.mnt-head,
+.final {
     text-align: center;
 }
 
@@ -462,4 +464,101 @@ iframe {
     text-align: left;
     text-decoration-line: underline;
 }
+
 /* My next target section End! */
+
+/* i need support section */
+
+.final {}
+
+.final-head {
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+    margin-bottom: 100px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background: rgb(31, 97, 209);
+    background: rgb(31, 97, 209);
+    background: linear-gradient(90deg, rgba(31, 97, 209, 0.4598214285714286) 0%, rgba(0, 0, 0, 0.639093137254902) 1%, rgba(0, 0, 0, 0.4822303921568627) 100%, rgba(6, 131, 171, 0.6054796918767507) 100%), url("../assets/handshake.jpg");
+    background-size: cover;
+    height: 400px;
+    padding: 64px 48px;
+}
+
+.final-head h3 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.final-head p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 20px 100px;
+}
+
+.final-head input {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 23px 20px;
+    width: 500px;
+}
+
+.final-head placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.final-head button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    padding: 19px 20px;
+    background: rgb(255, 255, 255);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.final-head button:hover {
+    color: white;
+    background-color: black;
+}
+
+/* i need support section end  */
+
+/* footer section */
+.footer-color{
+
+}
+.footer-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-img{
+    display: flex;
+    gap: 24px;
+}
